@@ -8,6 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "lint:fix": "ng lint --fix",
+    "stylelint": "stylelint \"src/**/*.scss\"",
+    "stylelint:fix": "stylelint \"src/**/*.scss\" --fix",
+    "format": "prettier --write . --ignore-path .prettierignore",
     "prepare": "husky install",
     "storybook": "ng run lila:storybook",
     "build-storybook": "ng run lila:build-storybook"
