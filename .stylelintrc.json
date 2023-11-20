@@ -1,0 +1,11 @@
+{
+  "plugins": ["stylelint-prettier"],
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-prettier/recommended"
+  ],
+  "rules": {
+    "no-empty-source": null,
+    "color-function-notation": null
+  }
+}
